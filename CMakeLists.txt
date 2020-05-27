@@ -7,6 +7,7 @@ include_directories(${SDL2_INCLUDE_DIRS})
 
 
 add_library(sdl2_cpp SHARED
+  src/surface.cpp
 )
 
 set_target_properties(sdl2_cpp PROPERTIES VERSION ${PROJECT_VERSION})
